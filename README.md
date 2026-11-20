@@ -1,7 +1,6 @@
-
 # SQL and MongoDB Assignments
 
-This repository contains my SQL Server and MongoDB assignments completed as part of the training. It includes practical exercises based on database management, SQL queries, data manipulation, joins, subqueries, transactions, window functions, and MongoDB operations.
+This repository contains my SQL Server and MongoDB assignments completed as part of the training. It includes practical exercises based on database management, SQL queries, data manipulation, views, stored procedures, functions, transactions, and MongoDB operations.
 
 ## Repository Structure
 
@@ -23,10 +22,16 @@ SQL-MongoDB-Assignments/
 │   ├── Set2/
 │   └── Set3/
 │
-└── Day8/
+├── Day8/
+│   ├── Set1/
+│   ├── Set2/
+│   └── Set3/
+│
+└── Day9/
     ├── Set1/
     ├── Set2/
     └── Set3/
+
 ```
 
 ## Contents
@@ -47,8 +52,15 @@ The assignments cover:
 - Window functions such as ROW_NUMBER, RANK, DENSE_RANK, LEAD and LAG.
 - SQL transactions, COMMIT, ROLLBACK and SAVEPOINT.
 - Transaction isolation levels and ACID properties.
+- SQL Server views and updatable views.
+- Stored procedures with input and OUTPUT parameters.
+- Scalar-valued and table-valued functions.
+- Transaction handling using TRY...CATCH.
+- Cursor-based and set-based processing.
+- Execution-time comparison between cursors and set-based operations.
 - MongoDB CRUD operations and aggregation pipelines.
 - MongoDB $lookup, $inc and multi-document transactions.
+- MongoDB views using db.createView().
 
 ## Tools Used
 
@@ -60,7 +72,7 @@ The assignments cover:
 
 ## Learning Outcomes
 
-Through these assignments, I practiced writing SQL queries, managing relational databases, analysing data using joins and subqueries, implementing transactions, generating reports using window functions, and working with MongoDB collections and aggregation pipelines.
+Through these assignments, I practiced writing SQL queries, managing relational databases, analysing data using joins and subqueries, creating views, developing stored procedures and functions, implementing transactions, processing records using cursors and set-based operations, and working with MongoDB collections and aggregation pipelines.
 
 ## Execution
 
